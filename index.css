@@ -1,0 +1,89 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin : 2px;
+}
+.center{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+#game{
+height: 95%;
+width: 30%;
+margin: auto;
+background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 5px;
+}
+#head{
+  height: 8%;
+  width: 100%;
+  font-size: 35px;
+  letter-spacing: 1px;
+text-shadow: 3px 3px 5px blue;  
+  }
+  #score{
+    height: 8%;
+    width: 100%;
+    font-size: 25px;
+
+  }
+
+#container{
+  /* margin-top: 26%; */
+  height: 68%;
+  width: 100%;
+display: flex;
+flex-direction: column;
+}
+.row{
+  display: flex;
+
+}
+.box{
+height: 45px;
+width: 45px;
+border: 0.1px solid brown;
+display: flex;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+/* color: purple;
+background-color: #f0f7fc; */
+margin: 0.5px;
+box-shadow: 1px 1px 1px black;
+border-radius: 3px;
+cursor: pointer;
+
+}
+#restart{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 3%;
+height: 14%;
+width: 100%;
+font-size: 40px;
+background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 5px;
+}
+#pass{
+  margin-top: 20px; 
+  margin-left: 30px;
+  font-size: 25px;
+height: 70px;
+width: 70px;
+border: 1px solid white;
+background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
